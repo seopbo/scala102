@@ -1,6 +1,6 @@
 package scala.learning.three.example
-
-object MatchValueExample extends App {
+// 03-3. 매치 표현식: 매치표현식 사용하기 예제
+object Example05 extends App {
   val status = 500
   val message = status match {
     case 200 => "ok"

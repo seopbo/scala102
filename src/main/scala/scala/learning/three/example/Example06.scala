@@ -1,6 +1,6 @@
 package scala.learning.three.example
-
-object MatchPatternAlternativeExample extends App {
+// 03-3. 매치표현식: 패턴 대안 예제
+object Example06 extends App {
   val day = "MON"
   val kind = day match {
     case "MON" | "TUE" | "WED" | "THU" | "FRI" =>
@@ -8,4 +8,5 @@ object MatchPatternAlternativeExample extends App {
     case "SAT" | "SUN" =>
       "weekend"
   }
+  println(kind)
 }

@@ -1,6 +1,6 @@
 package scala.learning.two.example
-
-object StringInterpolation extends App {
+// 02-4. 타입: 문자열 보간 예제
+object Example08 extends App {
   // without string interpolation
   val approx = 355/113f
   println("Pi, using 355/133, is about " + approx + ".")

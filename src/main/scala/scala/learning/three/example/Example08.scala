@@ -1,6 +1,6 @@
 package scala.learning.three.example
-
-object MatchWildCardWildcardOperatorExample extends App {
+// 03-3. 매치표현식: 와일드카드 연산자 패턴 예제
+object Example08 extends App {
   val message = "Unauthorized"
   val status = message match {
     case "Ok" => 200

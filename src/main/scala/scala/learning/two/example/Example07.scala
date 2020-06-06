@@ -1,6 +1,6 @@
 package scala.learning.two.example
-
-object StringExample extends App {
+// 02-4. 타입: 문자열 예제
+object Example07 extends App {
   val hello = "Hello There"
   val signature = "With Regards, \nYour friend"
   val greeting_0 = "Hello, " + "World"

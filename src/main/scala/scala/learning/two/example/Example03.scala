@@ -1,6 +1,6 @@
 package scala.learning.two.example
-
-object Variable {
+// 02-2. 변수 정의 예제
+object Example03 {
   def main(args: Array[String]): Unit = {
     var x = 5
     x = x * 4

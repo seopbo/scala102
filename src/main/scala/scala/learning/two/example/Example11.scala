@@ -1,6 +1,6 @@
 package scala.learning.two.example
-
-object BooleanExample extends App {
+// 02-4. 타입: 스칼라 타입의 개요 예제
+object Example11 extends App {
   val isTrue = !false
   val isFalse = !true
   val unequal = (5 != 6)

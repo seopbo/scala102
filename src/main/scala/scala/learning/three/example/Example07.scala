@@ -1,6 +1,6 @@
 package scala.learning.three.example
-
-object MatchWildCardPatternValueBindingExample extends App {
+// 03-3. 매치표현식: 값 바인딩 패턴 예제
+object Example07 extends App {
   val message = "OK"
   val status = message match {
     case "OK" => 200

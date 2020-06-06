@@ -1,10 +1,10 @@
 package scala.learning.two.example
-
-object ValueWithType {
+// 02-1. 값 정의 예제 (타입지정 x)
+object Example02 {
   def main(args: Array[String]): Unit = {
-    val x: Int = 2
-    val greeting: String = "Hello, World"
-    val atSymbol: Char = '@'
+    val x = 2
+    val greeting = "Hello, World"
+    val atSymbol = '@'
 
     println(x)
     println(greeting)

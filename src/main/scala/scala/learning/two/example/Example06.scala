@@ -1,6 +1,6 @@
 package scala.learning.two.example
-
-object LiteralExample extends App {
+// 02-4. 타입: 리터럴 예제
+object Example06 extends App {
   val anInt = 5
   val yellowRgb = 0xffff00
   val id = 1001

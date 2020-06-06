@@ -1,6 +1,6 @@
 package scala.learning.two.example
-
-object TupleExample extends App {
+// 02-4. 타입: 튜플 생성 예제
+object Example12 extends App {
   val info = (5, "Korben", true)
   val name = info._2
 

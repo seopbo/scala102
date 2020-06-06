@@ -1,10 +1,10 @@
 package scala.learning.two.example
-
-object ValueWithoutTypeExample {
+// 02-1. 값 정의 예제
+object Example01 {
   def main(args: Array[String]): Unit = {
-    val x = 2
-    val greeting = "Hello, World"
-    val atSymbol = '@'
+    val x: Int = 2
+    val greeting: String = "Hello, World"
+    val atSymbol: Char = '@'
 
     println(x)
     println(greeting)

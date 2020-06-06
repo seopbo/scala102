@@ -1,6 +1,6 @@
 package scala.learning.three.example
-
-object MatchPatternVariableTypeExample extends App {
+// 03-3. 매치표현식: 패턴 변수 지정하기 예제
+object Example10 extends App {
   val x: Int = 12180
   val y: Any = x
 

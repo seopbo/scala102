@@ -1,6 +1,6 @@
 package scala.learning.two.example
-
-object RegexExample extends App {
+// 02-4. 타입: 정규 표현식으로 값 캡처하기 예제
+object Example09 extends App {
 
   // 기본
   val exampleSentence1 = "Froggy went a' courting"
