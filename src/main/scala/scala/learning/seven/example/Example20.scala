@@ -9,7 +9,7 @@ object Example20 extends App {
   def nextFtr(i: Int = 0) = Future {
     def rand(x: Int) = util.Random.nextInt(x)
 
-    Thread.sleep(0)
+    Thread.sleep(rand(2))
     if (rand(3) > 0) (i + 1) else throw new Exception
   }
   println(nextFtr(2))
